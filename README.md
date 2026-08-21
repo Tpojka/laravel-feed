@@ -8,13 +8,22 @@
 
 ## Installation
 
-Run the following command and provide the latest stable version (e.g v9.0.\*) :
+Run the following command and provide the latest stable version (e.g v10.0.\*) :
 
 ```bash
 composer require laravelium/feed
 ```
 
 or add the following to your `composer.json` file :
+
+#### For Laravel 10.0
+```json
+"laravelium/feed": "10.0.*"
+```
+(development branch)
+```json
+"laravelium/feed": "10.0.x-dev"
+```
 
 #### For Laravel 9.0
 ```json
