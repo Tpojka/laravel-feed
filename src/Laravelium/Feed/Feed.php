@@ -234,6 +234,29 @@ class Feed
     }
 
     /**
+     * Convenience method to add a single feed item using positional arguments.
+     * Builds the item array and delegates to addItem(), so it gets the same
+     * shortening and title/subtitle sanitization.
+     *
+     * @return void
+     */
+    public function add($title, $author, $link, $pubdate, $description, $content = '', $enclosure = [], $category = '', $subtitle = '', $duration = '')
+    {
+        $this->addItem([
+            'title'       => $title,
+            'author'      => $author,
+            'link'        => $link,
+            'pubdate'     => $pubdate,
+            'description' => $description,
+            'content'     => $content,
+            'enclosure'   => $enclosure,
+            'category'    => $category,
+            'subtitle'    => $subtitle,
+            'duration'    => $duration,
+        ]);
+    }
+
+    /**
      * Returns aggregated feed with all items from $items array
      *
      * @param string $format (options: 'atom', 'rss')
