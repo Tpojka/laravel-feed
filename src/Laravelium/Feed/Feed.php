@@ -293,9 +293,11 @@ class Feed
             $format = "atom";
         }
 
-        if (0 == $cache || (null == $cache && 0 == $this->caching)) {
+        if ($cache === 0 || ($cache === null && $this->caching === 0)) {
             $this->clearCache();
-        } else {
+        }
+
+        if ($cache !== null && $cache > 0) {
             $this->caching = $cache;
         }
 
