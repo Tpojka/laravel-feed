@@ -1,12 +1,12 @@
 # Contribution Guide
 
 
-## New Merge Requests
+## New Pull Requests
 
 - Your commits must be **Verified**
 - Your **Code Coverage** must be **100%**
-- Your tests ([*GitLab CI/CD*](https://docs.gitlab.com/ee/ci/)) must be with **Passing** status (**no broken tests!**)
-- Your **Coding Style** must be valid [*PSR-2*](https://www.php-fig.org/psr/psr-2/) (*use this:* [*php-cs-fixer config*](https://gitlab.com/snippets/1749141))
+- Open your PR against [github.com/Tpojka/laravel-feed/pulls](https://github.com/Tpojka/laravel-feed/pulls) — tests run automatically via GitHub Actions and must be **Passing** (**no broken tests!**)
+- Your **Coding Style** must be valid [*PSR-2*](https://www.php-fig.org/psr/psr-2/)
 
 
 ## New Issues
@@ -16,4 +16,4 @@ There is no special template for creating new issues, but please when create new
 
 ## Security Reports
 
-If you discover a security vulnerability within this package, please send an e-mail to Roumen Damianoff via [roumen@laravelium.com](mailto:roumen@laravelium.com). All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within this package, please don't file a public issue or PR for it — contact me directly at [github.com/Tpojka](https://github.com/Tpojka). All security vulnerabilities will be promptly addressed.
