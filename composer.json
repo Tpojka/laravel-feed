@@ -1,7 +1,10 @@
 {
 	"name": "laravelium/feed",
 	"description": "Laravelium Feed package for Laravel.",
-	"homepage": "https://laravelium.com",
+	"homepage": "https://github.com/Tpojka/laravel-feed",
+	"support": {
+		"issues": "https://github.com/Tpojka/laravel-feed/issues"
+	},
 	"keywords": ["laravelium", "laravel", "feed", "generator", "rss", "atom"],
 	"license": "MIT",
 	"version": "9.0.1",
@@ -11,6 +14,12 @@
 			"email": "roumen@damianoff.com",
 			"role": "Developer",
 			"homepage": "https://damianoff.com"
+		},
+		{
+			"name": "Goran Grbic",
+			"email": "me@tpojka.com",
+			"role": "Maintainer",
+			"homepage": "https://www.github.com/Tpojka"
 		}
 	],
 	"require": {
