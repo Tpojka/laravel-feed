@@ -45,5 +45,10 @@
       }
 		}
 	},
-	"minimum-stability": "dev"
+	"minimum-stability": "dev",
+	"config": {
+		"allow-plugins": {
+			"kylekatarnls/update-helper": true
+		}
+	}
 }
